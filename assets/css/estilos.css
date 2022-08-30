@@ -1,0 +1,114 @@
+html{
+    scroll-behavior: auto !important;
+}
+
+body{
+    font-family: "Patrick Hand";
+}
+
+/*navbar  #0dd2bb*/
+.navbar{
+    background-color: #e37222;
+    position:fixed;
+    width: 100vw;
+    z-index: 1;
+}
+.navbar-brand{
+    font-family: "Roboto";
+    font-weight: 700;
+}
+#logoNavbar{
+    border-radius: 50%;
+    height: 40px;
+    margin-right: 10px;
+}
+/*hero section*/
+#Hero-Section{
+    background-image: url(../img/fotocurri1-01.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+    height: 170vh;
+    position: relative;
+}
+#Hero-Section div{
+    position: absolute;
+    bottom: 50px;
+    left:0;
+    right: 0;
+    margin: auto;
+}
+.hero-line{
+    width: 500px;
+}
+#Hero-Section h1{
+font-family: "Roboto";
+font-size: 80px;
+font-weight: 700;
+}
+
+#Hero-Section h1:last-child{
+    font-weight: 200;
+    }
+/*sobre mi*/
+#Presentacion{
+    background-color: #abd5e6;
+    line-height: 2;
+    color: black;
+    
+}    
+#habilidadesTecnicas{
+    background-color:#07889b;
+    color: #abd5e6;
+}
+#educacion{
+background-color: #66b9bf;
+color: #abd5e6;
+}
+
+#talleresYCursos{
+background-color: #eeaa7b;
+color: #abd5e6;
+}
+
+.titulo1{
+    font-family: "Roboto";
+    text-decoration-line: underline;
+}
+#elCss{
+    color: green;
+}
+
+#trabajos{
+    background-color:#07889b;
+}
+
+
+
+/* habilidades tecnicas*/
+#logoDjango{
+    height: 60pt;
+}
+
+#central{
+    background-color:beige;
+}
+
+.letraChica{
+    font-size: medium;
+}
+.cargo{
+    color: blue;
+     }
+.empresa{
+    color:brown;
+    
+}
+
+#footer{
+    background-color: #e37222;
+}
+#footer a{
+    color:beige;
+    text-decoration: none;
+}
