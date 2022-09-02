@@ -22,34 +22,6 @@ body{
     height: 40px;
     margin-right: 10px;
 }
-/*hero section*/
-#Hero-Section{
-    background-image: url(../img/fotocurri1-01.jpeg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: bottom;
-    height: 170vh;
-    position: relative;
-}
-#Hero-Section div{
-    position: absolute;
-    bottom: 50px;
-    left:0;
-    right: 0;
-    margin: auto;
-}
-.hero-line{
-    width: 500px;
-}
-#Hero-Section h1{
-font-family: "Roboto";
-font-size: 80px;
-font-weight: 700;
-}
-
-#Hero-Section h1:last-child{
-    font-weight: 200;
-    }
 /*sobre mi*/
 #Presentacion{
     background-color: #abd5e6;
@@ -57,6 +29,9 @@ font-weight: 700;
     color: black;
     
 }    
+#Presentacion img{
+    width: 100%;
+}
 #habilidadesTecnicas{
     background-color:#07889b;
     color: #abd5e6;
@@ -90,7 +65,7 @@ color: #abd5e6;
     height: 60pt;
 }
 
-#central{
+#experiencia{
     background-color:beige;
 }
 
