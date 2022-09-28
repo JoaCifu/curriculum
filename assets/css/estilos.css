@@ -33,9 +33,9 @@ body{
     width: 100%;
 }
 #habilidadesTecnicas{
-    background-color:#07889b;
-    color: #abd5e6;
+    background-color: beige;
 }
+
 #educacion{
 background-color: #66b9bf;
 color: #abd5e6;
@@ -49,11 +49,28 @@ color: #abd5e6;
 .titulo1{
     font-family: "Roboto";
     text-decoration-line: underline;
+    color: beige;
 }
 #elCss{
-    color: green;
+    color: #0070ba;
+}
+#elHtml{
+    color: #e44d26;
+}
+#elJs{
+    color: #ffdf00;
 }
 
+.elNode{
+    color: #6da75d;
+}
+.elBootstrap{
+    color: #5e3b7f;
+}
+#elFlask{
+    border-radius: 50%;
+    width: 60pt;
+}
 #trabajos{
     background-color:#07889b;
 }
@@ -61,7 +78,7 @@ color: #abd5e6;
 
 
 /* habilidades tecnicas*/
-#logoDjango{
+.logos{
     height: 60pt;
 }
 
@@ -75,6 +92,15 @@ color: #abd5e6;
 .cargo{
     color: blue;
      }
+.institucionEducacion{
+    color: #07889b;
+}
+.letraNegra{
+    color: darkslategrey;
+}
+.institucionTalleres{
+    color: #e37222;
+}
 .empresa{
     color:brown;
     
